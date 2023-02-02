@@ -14,7 +14,7 @@ const Untitled1 = ({
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><Pressable onPress={() => navigation.navigation.navigate("Untitled2", {
+    }}><Pressable onPress={() => navigation.navigate("Untitled2", {
         "greeting": "hello",
         "name": universitiesapi_response_get_Search.name
       })}><View style={styles.lmDFSFdp}></View></Pressable></ScrollView>
